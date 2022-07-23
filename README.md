@@ -10,7 +10,10 @@ To execute this project, Ubuntu 20.04 + CMake is required. Open the command line
 bash ./code/run_all.sh
 ```
 
-Then the project would compile and render 3 different images, as shown in `./results/`
+Then the project would compile and render 3 different images, as shown in `./results/` directory.
 
-directory.
+## Results
 
+![easter](./results/easter.bmp)
+
+![china](./results/china.bmp)
