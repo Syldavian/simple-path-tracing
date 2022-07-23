@@ -1,0 +1,6 @@
+/mnt/c/Users/ziyue/desktop/计算机图形学大作业 党子越 2019011255/code/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/ziyue/desktop/计算机图形学大作业 党子越 2019011255/code/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/ziyue/desktop/计算机图形学大作业 党子越 2019011255/code/build/CMakeFiles/PA1.dir
+/mnt/c/Users/ziyue/desktop/计算机图形学大作业 党子越 2019011255/code/build/deps/vecmath/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/ziyue/desktop/计算机图形学大作业 党子越 2019011255/code/build/deps/vecmath/CMakeFiles/edit_cache.dir
+/mnt/c/Users/ziyue/desktop/计算机图形学大作业 党子越 2019011255/code/build/deps/vecmath/CMakeFiles/vecmath.dir

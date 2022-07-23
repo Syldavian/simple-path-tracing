@@ -1,0 +1,148 @@
+PerspectiveCamera {
+    center 50 44 210
+    direction 0 0 -1
+    up 0 1 0
+    angle 45
+    width 800
+    height 600
+}
+
+Background {
+    color 0 0 0 
+}
+
+Materials {
+    numMaterials 9
+    Material {
+        color 0.75 0.75 0.75
+    }
+    Material {
+        color 0.255 0.412 0.882
+        reflection 2
+    }
+    Material {
+        color 0.75 0.75 0.75
+    }
+    Material { 
+        color 0.999 0.84 0.001 
+        reflection 1
+    }
+    Material { 
+        color 0.251 0.878 0.816 
+        reflection 2
+    }
+    Material {
+        color 0 0 0
+        emissionColor 12 12 12
+    }
+    Material { 
+        color 0.66 0.33 0.66 
+    }
+    Material { 
+        color 0.999 0.999 0.999 
+        reflection 2
+    }
+    Material { 
+        color 0.001 0.999 0.5
+    }
+}
+
+Group {
+    numObjects 14
+    MaterialIndex 0
+    Plane {
+        normal 1 0 0
+        offset 0
+
+        texture new_side.ppm
+    }
+    Plane {
+        normal -1 0 0
+        offset -99
+
+        texture new_side.ppm
+    }
+    Plane {
+        normal 0 0 1
+        offset 0
+
+        texture newbackground.ppm
+    }
+    Plane {
+        normal 0 1 0
+        offset 0
+
+        texture marble.ppm
+    }
+    Plane {
+        normal 0 -1 0
+        offset -81.6
+    }
+
+    MaterialIndex 1
+    Transform {
+        Scale  1 0.7 1
+        Sphere {
+            center 27 10 47
+            radius 10
+        }
+    }
+
+    MaterialIndex 2
+    Sphere {
+        center 73 10 78
+        radius 10
+
+        texture ball.ppm
+    }
+
+    MaterialIndex 3
+    TriangleMesh {
+        obj_file mesh/bunny_200.obj
+        scale 80
+        offset 20 -5 90
+    }
+
+    MaterialIndex 4
+    TriangleMesh {
+        obj_file mesh/bunny.fine.obj
+        scale 80
+        offset 50 -5 100
+    }
+
+    MaterialIndex 5
+    Sphere {
+        center 50 80 80
+        radius 1
+    }
+    Sphere {
+        center 50 681.33 81.6
+        radius 600
+    }
+
+    MaterialIndex 6
+    TriangleMesh {
+        obj_file mesh/bunny_1k.obj
+        scale 60
+        offset 85 -4 105
+    }
+
+    MaterialIndex 7
+    Transform {
+        Scale  1 0.7 1
+        Sphere {
+            center 45 10 60
+            radius 10
+        }
+    }
+
+    MaterialIndex 8
+    Transform {
+        Scale  1 0.7 1
+        Sphere {
+            center 55 8 80
+            radius 8
+        }
+    }
+}
+
